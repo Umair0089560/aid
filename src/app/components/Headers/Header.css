@@ -1,0 +1,63 @@
+.f_header {
+    background-color: #aa20e7;
+    color: #fff;
+    height: 40px;
+}
+ hr {
+    rotate: 90deg;
+    width: 30px;
+    color: #fff;
+}
+
+.lg\:gap-5 {
+    gap: 3.25rem;
+}
+
+.nav_links {
+    color: black !important;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 -10px #00ade9
+    }
+
+    40% {
+        box-shadow: 0 0 20px #00ade9
+    }
+
+    60% {
+        box-shadow: 0 0 20px #00ade9
+    }
+
+    to {
+        box-shadow: 0 0 -10px #00ade9
+    }
+}
+
+.button-glow {
+    animation: glowing 3.7s infinite;
+    border: 1px solid #00ade9;
+    color: #00ade9;
+}
+.text-black-50 {
+    color: #1d1d1d !important;
+}
+.icon svg {
+    font-size: 24px;
+    font-weight: 400;
+}
+.button-glow:hover {
+    background-color: #00ade9;
+    color: #fff;
+}
+
+.t_header {
+    background-color: #006ba3;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
