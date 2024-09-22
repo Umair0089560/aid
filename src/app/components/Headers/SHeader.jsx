@@ -5,8 +5,8 @@ import { RiUserHeartLine } from "react-icons/ri";
 import { IoIosContact } from "react-icons/io";
 const SHeader = () => {
   return (
-    <header className="relative w-full h-auto max-lg:hidden">
-    <nav className="w-full transition bg-white z-20 p-3">
+    <header className="relative w-full h-auto max-lg:hidden p-1">
+    <nav className="w-full transition bg-white z-20 p-2">
       <div className="container-fluid mx-auto py-1 flex justify-between items-center">
         <div className="flex items-center md:gap-4 xl:gap-8 w-2/3">
           <div className="w-1/3 h-auto">

@@ -1,7 +1,7 @@
 .f_header {
     background-color: #aa20e7;
     color: #fff;
-    height: 40px;
+    height: 37px;
 }
  hr {
     rotate: 90deg;
@@ -54,10 +54,20 @@
 
 .t_header {
     background-color: #006ba3;
-    height: 135px;
+    height: 122px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+  
+}
+.l_header {
+    background-color: #00ade9;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
   
 }
