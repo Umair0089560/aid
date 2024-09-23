@@ -1,0 +1,6 @@
+.bg-banner {
+    /* background-image: ; */
+    background-size: cover;
+    background: linear-gradient(270deg, rgba(19, 38, 85, 0) 0%, rgb(19, 38, 85) 100%),url(../../../../public/20130403_damoh_0186-copy1.png);
+    height: 80vh;
+}
